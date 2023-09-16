@@ -1,0 +1,84 @@
+header
+{
+    background-color: #000;
+    color: #fff;
+    padding: 20px;
+    
+}
+body 
+{
+    font-family: Arial, sans-serif; /*Specifies the font family*/
+    margin: 0px; /*Remove margins from the body*/
+    padding: 0px; /*Remove padding from the body*/
+    display: flex; /*Apply flex container properties*/
+    flex-direction:column; /*flex items should be arranged vertically*/
+    min-height: 100vh; /* sets the minimum height of the body element to 100% of the viewport height*/
+}
+nav ul
+{
+    list-style-type:none; /*Remove the default list style*/
+    margin: 0px; /*Remove margins*/
+    padding: 12px 0; /*12 pixels for top & bottom sides, also remove padding for left & right sides*/
+    background-color: lightgrey;
+}
+nav ul li
+{
+    display: inline;
+    padding: 12px 16px;
+}
+nav ul li a
+{
+    text-decoration: none;
+    color:#000;
+}
+nav ul li:hover
+{
+    background-color: #90ee90;
+}
+li.currentPage
+{
+    background-color: #ffa500;
+}
+main
+{
+    display: flex;
+    flex: 1;
+    padding: 20px;
+    justify-content: center;
+
+}
+
+.section-header
+{
+    text-align: center;
+}
+.featured-drinks
+{
+    display: flex;
+    justify-content: center;
+}
+.drink-container
+{
+display: flex;
+}
+.drink
+{
+    margin: 0 10px;
+    text-align: center;
+}
+.drink img
+{
+    width: 200px;
+    height: 200px;
+}
+footer
+{
+    background-color: #000;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100vw;
+}
